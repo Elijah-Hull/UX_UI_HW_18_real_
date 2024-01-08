@@ -1,0 +1,55 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    color: #59dbb8;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: top;
+}
+nav {
+    width: 82%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+    background-color: #d6dfdf;
+    margin-right: 200px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+header,footer {
+   background-color: #453434; 
+}
+h1 {
+font-family: 'Courier New', Courier, monospace;
+}
+.myskills {
+    background-color: #453434;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap:wrap; 
+}
+.flexcontainer > div {
+    margin: 2px;
+    padding: 18px;
+}
+.workgrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.inside {color: #59dbb8;}
+@media only screen and (max-width: 600px) {
+    #workgrid {grid-template-columns: 300px 300px;}
+    }
