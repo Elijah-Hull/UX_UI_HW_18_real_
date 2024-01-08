@@ -17,10 +17,11 @@ ul {
     margin-left: auto;
 }
 .heroimg {
-    height: 600px;
+    height: 500px;
     padding: 25px;
     background-color: #d6dfdf;
     margin-right: 200px;
+    text-align: center;
 }
 .content {
     width: 500px;
