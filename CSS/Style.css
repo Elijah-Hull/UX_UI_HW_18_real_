@@ -19,19 +19,29 @@ ul {
 .heroimg {
     height: 500px;
     padding: 25px;
-    background-color: #d6dfdf;
+    background-color: #ccafc0;
     margin-right: 200px;
     text-align: center;
 }
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 header,footer {
    background-color: #453434; 
 }
 h1 {
-font-family: 'Courier New', Courier, monospace;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .myskills {
     background-color: #453434;
@@ -40,10 +50,16 @@ font-family: 'Courier New', Courier, monospace;
 .flexcontainer {
     display: flex;
     flex-wrap:wrap; 
+    margin-right: 0;
 }
 .flexcontainer > div {
     margin: 2px;
     padding: 18px;
+}
+.skill {
+    display: flexbox;
+    width: 50%;
+    margin: 2px;
 }
 .workgrid {
     display: grid;
